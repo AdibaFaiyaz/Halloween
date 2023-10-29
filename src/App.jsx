@@ -1,9 +1,6 @@
-
-
 import './App.css'
 
 function App() {
-
 
   return (
     <>
@@ -30,14 +27,7 @@ function App() {
           <img src="https://i.pinimg.com/originals/32/cd/0b/32cd0bb0462704dab050067adb1de597.gif" alt="" className='h-4/5 xl:w-[30vw]' />
           {/* <img src="https://giffiles.alphacoders.com/158/15899.gif" alt="" className='w-4/5 xl:w-[30vw]'/> */}
           </div>
-        </div>
-        
-
-        
-
-       
-       
-        
+        </div>      
       </main>
     </>
   )
