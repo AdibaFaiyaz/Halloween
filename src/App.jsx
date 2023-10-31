@@ -1,11 +1,12 @@
 import './App.css'
-
+import pic from './logo.png'
 function App() {
 
   return (
     <>
       <nav className='bg-gray-800 text-white flex text-sm justify-between xl:text-xl'>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Jack-o%27-Lantern_2003-10-31.jpg/800px-Jack-o%27-Lantern_2003-10-31.jpg" className="h-12 pt-3 px-3 rounded-xl" alt="" />
+      <img src={pic} className="h-16 pt-3 px-3 rounded-full" alt="" />
+        {/* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Jack-o%27-Lantern_2003-10-31.jpg/800px-Jack-o%27-Lantern_2003-10-31.jpg" className="h-12 pt-3 px-3 rounded-full" alt="" /> */}
         <ul className='px-5 py-4 flex space-x-10 xl:px-20 '>
           <li className='cursor-pointer hover:text-orange-400'>Home</li>
           <li className='cursor-pointer hover:text-orange-400'>About</li>
